@@ -1,0 +1,53 @@
+.card-outer {
+    color: white;
+    background: #202225;
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+}
+.title-heck {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.subtitle-heck {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.input-pre {
+    border-radius: 5px;
+    padding: 0 0.6rem 0 0.6rem;
+    margin-top: -0.7rem;
+    background: #2f3136;
+}
+::placeholder {
+    color: #979797;
+    opacity: 1;
+}
+.sbs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.command-input {
+    width: 28rem;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: #40444b;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.caret-stn {
+    caret-color: white;
+}
+.card-resp {
+    background: #2f3136;
+    font-family: monospace;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
