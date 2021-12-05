@@ -41,7 +41,11 @@ function Card() {
                         <input type="text" placeholder="Enter command" name="command" value={command} onChange={HandleChange} className="command-input caret-stn" />
                     </div>
                     <DiscordActionRow>
-                        <button type="submit" className="btn-heck">Heck</button>
+                            <DiscordButton type="primary" className="btn-heck">
+                                <button type="submit" className="btn-heck-text">
+                                    Heck
+                                </button>
+                            </DiscordButton>
                     </DiscordActionRow>
                 </form>
             </div>
@@ -51,7 +55,7 @@ function Card() {
                     <code>
                         {Math.floor(Date.now() / 1000)}: Ready<br />
                         {Math.floor(Date.now() / 1000) + 2}: {command}<br />
-                        {resp}
+                        {Math.floor(Date.now() / 1000) + 4}: {resp}
                     </code>
                 </pre>
             </div>
