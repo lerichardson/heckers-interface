@@ -12,7 +12,7 @@ function Card() {
         sys.preventDefault();
         const parsedCommand = command.split(" ");
         if (parsedCommand[0] !== "sudo") {
-            resp = "Command requires elevated privileges. Try ruuning with sudo.";
+            resp = "Command requires elevated privileges. Try running with sudo.";
         } else if (parsedCommand[1] !== "heck") {
             resp = "Command not found!";
         } else if (!parsedCommand[2]) {
